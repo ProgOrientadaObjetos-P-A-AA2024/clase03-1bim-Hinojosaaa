@@ -21,9 +21,13 @@ public class Ejecutable02 {
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
         
+        /*obtenerNombre va a imptimirse con el String que fue inicializado aunque no se
+        ponga nada dentro del parentesis, lo mismo con obtenerNumeroCamas y 
+        obtenerPresupuesto que aunque no hayan sido inicializados con nada por defecto
+        se inicializan con cero*/
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
-        
+        /*
         h1.establecerNombre("Hospital Vaca Ortíz");
         
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
@@ -33,7 +37,7 @@ public class Ejecutable02 {
         
         System.out.printf("%s - %d - %.2f\n", h2.obtenerNombre(),
                 h2.obtenerNumeroCamas(), h2.obtenerPresupuesto());
-        
+        */
         
     }
 }
