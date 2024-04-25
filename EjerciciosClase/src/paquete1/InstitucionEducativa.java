@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package paquete1;
-
 /**
  *
  * @author reroes
@@ -16,5 +15,44 @@ public class InstitucionEducativa {
     private int numeroDocentes;
     private int numeroSedes;
     
+    public void establecerNombre(String c){
+        nombre = c;
+    }
+    
+    public void establecerTipoInstitucion(String c){
+        tipoInstitucion = c;
+    }
+    
+    public void establecerNumeroAlumnos(int c){
+        numeroAlumnos = c;
+    }
+    
+    public void establecerNumeroDocentes(int c){
+        numeroDocentes = c;
+    }
+    
+    public void establecerNumeroSedes(int c){
+        numeroSedes = c;
+    }
+    
     /*Crear los método necesarios*/
+    public String obtenerNombre(){
+        return nombre;
+    }
+    
+    public String obtenerTipoInstitucion(){
+        return tipoInstitucion;
+    }
+    
+    public int obtenerNumeroAlumnos(){
+        return numeroAlumnos;
+    }
+    
+    public int obtenerNumeroDocentes(){
+        return numeroDocentes;
+    }
+    
+    public int obtenerNumeroSedes(){
+        return numeroSedes;
+    }
 }
